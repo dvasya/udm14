@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Google UDM 14 Web search mode (no AI)",
+    "version": "1.0",
+    "description": "Adds the &udm=14 parameter to every Google search to set 'Web' as the default search mode (without AI and other clutter)",
+    "permissions": [
+        "declarativeNetRequest"
+    ],
+    "host_permissions": [
+        "https://www.google.com/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
